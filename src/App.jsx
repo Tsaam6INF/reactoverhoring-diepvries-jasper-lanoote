@@ -40,6 +40,7 @@ function App() {
       datum: "11/12/2025",
     },
   ];
+  // Wat is de betekenis van [...]?
   const gesorteerdeDiepvries = [...diepvries].sort((a, b) => a.lade - b.lade);
   return (
     <>
